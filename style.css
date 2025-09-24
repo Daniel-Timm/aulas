@@ -78,7 +78,7 @@ nav ul li a:hover:after{
 nav ul li a:hover{
     color: rgb(255, 255, 255);
    border-bottom: 3px solid rgb(241, 9, 9);
-   background-color: rgba(114, 55, 27, 0.911);
+   
    
 }
 .icones{
@@ -114,3 +114,186 @@ main section{
 main h2{
     color: rgb(255, 111, 59);;
 }  
+.Galeria{
+    
+}
+.fotos{
+    display: flex;
+   justify-content: space-between;
+   
+
+}
+.foto{
+   width: 20%;
+   height: 20%;
+   box-shadow: 0 0 10px  rgba(0, 0, 0, 0.384);
+   border-radius: 12px;
+   
+}
+.foto img{
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+}
+.mensagens{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+.msg{
+    height: 80px;
+    background-color: #f5eca0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(65, 65, 65, 0.61);
+}
+.msg p{
+    margin-left: 12px;
+    margin-top: 30px;
+}
+.banners{
+    display: flex;
+    justify-content: space-between;
+}
+.banner img{
+    width: 90%;
+    height: 200px;
+}
+.banner h3{
+    margin-top: 23px;
+    text-transform: uppercase;
+}
+
+
+.banner p{
+    margin-top: 12px;
+    font-size: smaller;
+    opacity: 0.6;
+    
+}
+.banner img{
+    
+    box-shadow: 0 0 10px;
+}
+footer{
+    background-color:rgb(30, 79, 151); ;
+    
+    width: 100%;
+    padding: 1em;
+}
+#cadastro{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    
+    margin-bottom: 10px;
+    background-color: rgb(30, 79, 151);
+    padding: 1em;
+
+}
+#cadastro input{
+    height: 3.9em;
+    width: 30%;
+    border-radius: 7px;
+}
+#cadastro h2{
+    font-size: medium;
+    
+    color:white ;
+}
+#cadastro 
+#cadastro span{
+    font-size: smaller;
+}
+#cadastro button{
+    width: 34%;
+    height: 3.9em;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 101, 194);
+    border-radius: 7px;
+    border: 1px solid rgb(25, 90, 177); ;
+    box-shadow: color(srgb rgb(34, 11, 11) rgb(0, 0, 0) rgb(0, 0, 0)) 0px 1px 0px;
+   
+}
+#cadastro button:hover{
+    background-color: rgb(23, 65, 119);
+    border: 1px solid white;
+}
+.atendimento  p{
+    color: white;
+}
+.atendimento h3{
+    color: white;
+    
+}
+.atendimento button{
+    background-color:rgb(255, 111, 59); ;
+    padding: 1em;
+    width: 15em;
+
+}
+#baixo{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: smaller;
+    gap:50px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-right: px;
+}
+.div3 ul li a,.div4 ul li a,.div5 ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+.div4 {
+    text-decoration: none;
+}
+  
+
+.midias{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    color: white;
+}
+.midias h3{
+    font-size: medium;
+}
+
+.midias a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 12px 8px;
+    border-radius: 5px;
+}
+.local{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    margin: 1px 50px 1px;
+
+}
+.local h5 span{
+    color: blue;
+    font-weight: bolder;
+    font-size:15px
+}
+.local p{
+    font-size: 10px;
+}
+
+
+
+
